@@ -1,0 +1,43 @@
+@CHARSET "ISO-8859-1";
+
+/* LIST #8 */
+#list8 { 
+	margin-left: 10px;
+	color: white;
+	
+	
+}
+#list8 ul { 
+	/*list-style:upper-alpha; */
+	list-style-image: url('imagens/mouse.png');
+	}
+
+#list8 ul li { 
+	font-family:Georgia,serif,Times; 
+	font-size:18px; 
+}
+#list8 ul li a {
+	 display:block;
+	 width:300px; height:28px;
+	 background-color:#000000; 
+	 border-left:5px solid #222; 
+	 border-right:5px solid #222; 
+	 padding-left:10px;
+	 text-decoration:none; 
+	 color:#bfe1f1; 
+  }
+  
+#list8 ul li a:hover { 
+	-moz-transform:rotate(-5deg);
+ 	-moz-box-shadow:10px 10px 20px #000000;
+ 	-webkit-transform:rotate(-5deg);
+  	-webkit-box-shadow:10px 10px 20px #000000;
+  	transform:rotate(-5deg); 
+  	box-shadow:10px 10px 20px #000000;
+   }
+   
+   
+.contatos{
+	padding: 5px;
+	margin-left: opx;
+}
